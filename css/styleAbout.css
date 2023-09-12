@@ -1,0 +1,149 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* regles CSS */
+
+}
+
+/* tete de page */
+header {
+
+    background-image:linear-gradient(0deg, rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url('../img/about-bg-5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 770px;
+    color: white;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+
+}
+
+.logoHeader {
+    margin: 10px;
+    padding-left: 40px;
+    width: 500px;
+}
+
+.topPage {
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style: none;
+    font-size: 30px;
+}
+
+.topPage a {
+    color: white;
+}
+
+nav li {
+    padding-left: 50px;
+}
+
+.action {
+    background-color: red;
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.mainSection {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    color: white;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+
+}
+
+.explore h1 {
+    font-weight: bold;
+    font-size: 100px;
+    margin: 0;
+}
+
+/* OUR MISSION */
+
+.mainDestination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin: 80px 120px;
+    padding-left: 40px;
+}
+
+.mainSectionDestination {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+
+.mainSectionDestination h2 {
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.mainSectionDestination h3 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.mainSectionDestination hr {
+    width: 100px;
+    border: 2px solid red;
+    margin: 30px 0;
+}
+
+.mainSectionDestination p {
+    line-height: 35px;
+    font-size: 25px;
+    margin: 10px 0;
+    width: 550px;
+
+}
+
+.tiret {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.tiret hr {
+    width: 25px;
+}
+
+.tiret p {
+    padding-left: 25px;
+}
+
+.photoDestination {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 5px;
+    width: 800px;
+}
+
+.photoMission {
+    margin: 20px 80px;
+
+}
+
+

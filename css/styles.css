@@ -1,0 +1,320 @@
+
+
+/* tete de page */
+header {
+    position: relative;
+    background-attachment: fixed;
+    background-image: linear-gradient(0deg, rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)),url('../img/hero-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 770px;
+    color: white;
+    /* filter: grayscale(0.40); */
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    
+}
+
+.logoHeader {
+    margin: 10px;
+    padding-left: 40px;
+    width: 500px;
+}
+
+.topPage {
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style: none;
+    font-size: 30px;
+
+
+}
+
+.topPage a {
+    color: white;
+}
+
+nav li {
+    padding-left: 50px;
+}
+
+.action {
+    background-color: red;
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+
+}
+
+
+/* main Section */
+
+.mainSection {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    color: white;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+    height: 87%;
+
+}
+
+hr {
+    width: 80px;
+    border: 1px solid red;
+    margin: 30px 0;
+}
+
+.explore p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.explore h1 {
+    font-size: 64px;
+    margin: 0;
+}
+
+.explore a {
+    margin-top: 80px;
+    font-size: 14px;
+    background-color: red;
+    padding: 15px 45px;
+    border-radius: 50px;
+    color: white;
+
+}
+
+.explore a:hover {
+    background-color: #da1c4b;
+
+}
+
+/* banner */
+
+.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(227, 235, 241, 0.9);
+    height: 175px;
+
+}
+
+.photoLogoBanner {
+    margin: 10px;
+    padding-left: 80px;
+    width: 200px;
+}
+
+.bannerFuerat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 60px;
+    color: black;
+    margin-top: 20px;
+    font-size: 30px;
+    padding-left: 60px;
+
+}
+
+
+/* Upcoming Events< */
+.mainUpcoming {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.titreUpcoming {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titreUpcoming h2 {
+    color: black;
+    font-size: 60px;
+}
+
+.titreUpcoming hr {
+    width: 200px;
+    border: 2px solid red;
+    margin: 50px 0;
+}
+
+.pageUpcoming {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 50px;
+}
+
+.photoUpcoming {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.mainSectionUpcoming {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+
+
+}
+
+.mainSectionUpcoming p {
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin: 30px;
+    width: 520px;
+
+}
+
+.mainSectionUpcoming h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.mainSectionUpcoming a {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: red;
+    padding: 15px 45px;
+    border-radius: 50px;
+    color: white;
+
+}
+
+/* Destination */
+
+.mainDestination {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 120px;
+    padding-left: 40px;
+    margin-top: 120px;
+}
+
+.mainSectionDestination {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%;
+    /* height: 700px; */
+}
+
+.mainSectionDestination h2 {
+    font-size: 70px;
+    margin-top: 30px;
+}
+
+.mainSectionDestination p {
+    line-height: 40px;
+    font-size: 25px;
+    margin: 30px 0;
+    width: 500px;
+
+}
+
+.mainSectionDestination a {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: red;
+    padding: 20px 45px;
+    border-radius: 50px;
+    color: white;
+    width: 290px;
+
+}
+
+.mainSectionDestination hr {
+    width: 100px;
+    border: 2px solid red;
+    margin: 40px 0;
+}
+
+.photoDestination {
+    margin: 20px;
+    width: 500px;
+}
+
+/* bg fx */
+
+.mainSectionBgFx {
+    position: relative;
+    background-attachment: fixed;
+    background-image: linear-gradient(0deg, rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url('../img/section-bg-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 770px;
+    color: white;
+    
+}
+
+.mainSectionBgFxTexte {
+    padding-left: 50%;
+    padding-top: 100px;
+
+}
+
+.mainSectionBgFxTexte h2 {
+    font-size: 70px;
+    margin-top: 30px;
+}
+
+.mainSectionBgFxTexte p {
+    line-height: 40px;
+    font-size: 25px;
+    margin: 30px 0;
+    width: 500px;
+
+}
+
+.mainSectionBgFxTexte a {
+    font-weight: bold;
+    font-size: 25px;
+    background-color: red;
+    padding: 20px 45px;
+    border-radius: 50px;
+    color: white;
+    width: 290px;
+
+}
+
+.mainSectionBgFxTexte hr {
+    width: 100px;
+    border: 2px solid red;
+    margin: 40px 0;
+}
+

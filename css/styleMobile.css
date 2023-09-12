@@ -1,0 +1,153 @@
+/*VERSION MOBILE*/
+
+@media all and (max-width: 768px) {
+    .header {
+        display: flex;
+        justify-content: flex-start;
+        height: 80px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .explore h1 {
+        font-size: 45px;
+        margin: 0;
+        text-align: center;
+    }
+
+    /* .topPage{
+        flex-direction: column;
+    } */
+    .topPage {
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 25px;
+    }
+
+    nav li {
+        padding-left: 20px;
+    }
+
+    .action {
+        padding: 5px 15px;
+    }
+
+    .pageUpcoming {
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 10px;
+    }
+
+    .mainDestination {
+        flex-direction: column;
+        width: 70%;
+        padding-left: 20px;
+        margin-top: 100px;
+        margin-left: 0;
+    }
+
+    .mainSectionBgFxTexte {
+        padding-left: 10%;
+        padding-top: 50px;
+    }
+
+    .photoDestination {
+        margin: 15px 0;
+        width: 350px;
+    }
+
+    .mainSectionDestination p {
+        line-height: 40px;
+        font-size: 25px;
+        margin: 30px 0px;
+        width: 375px;
+    }
+
+    .mainSectionDestination h2 {
+        font-size: 30px;
+        margin-top: 0px;
+    }
+
+    .mainSectionDestination {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    .photoMission {
+        margin: 0;
+    }
+
+    .banner {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100%;
+    }
+
+    .titreUpcoming h2 {
+        font-size: 50px;
+        padding-left: 10%;
+    }
+
+    .mainSectionUpcoming p {
+        margin: 25px;
+        width: 400px;
+    }
+
+    .mainSectionBgFxTexte {
+        padding-left: 15px;
+        padding-top: 30px;
+    }
+
+    .mainSectionBgFxTexte h2 {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    .mainSectionBgFxTexte p {
+        width: 375px;
+    }
+
+    .mainSectionDestination p {
+        margin: 0;
+    }
+
+    .mainSectionUpcoming {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 300px;
+        align-items: flex-start;
+    }
+
+    .mainSectionUpcoming p {
+        margin: 20px 0;
+        width: 360px;
+    }
+
+    .mainDestination {
+        height: 100%;
+        width: 100%;
+    }
+
+    .slides {
+        flex-direction: column;
+        height: 100%;
+
+    }
+#message {
+width: 330px;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+}
+
+
+}

@@ -1,0 +1,52 @@
+
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) and (orientation: landscape) {
+    /* regles CSS */
+
+}
+
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif, 'Noto Sans';
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.footer p {
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+}
